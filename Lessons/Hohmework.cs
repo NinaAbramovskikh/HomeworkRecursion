@@ -60,7 +60,7 @@ namespace Lessons
                 return;
 
             Console.Write(numbers[numbers.Length - 1] + " ");
-            WriteReverce(numbers.Take(numbers.Length - 2).ToArray());
+            WriteReverce(numbers.Take(numbers.Length - 1).ToArray());
         }
 
         private static int[] GetSequence(int first, int Second)
